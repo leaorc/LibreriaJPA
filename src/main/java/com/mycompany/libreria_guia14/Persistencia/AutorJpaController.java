@@ -12,12 +12,13 @@ import javax.persistence.EntityNotFoundException;
 import javax.persistence.Persistence;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+//borrador
 
 
 public class AutorJpaController implements Serializable {
 
     public AutorJpaController(EntityManagerFactory emf) {
-        this.emf = emf
+        this.emf = emf;
     }
     private EntityManagerFactory emf = null;
 
